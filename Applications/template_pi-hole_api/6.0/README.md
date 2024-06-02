@@ -29,10 +29,14 @@ Configuration > Hosts > [your Pi-Hole] > Macros Tab > new macro:
 * Macro: {$WEBPASSWORD}
 * Value: [the result of the command executed on your Pi-Hole]
 
+* Macro: {$HOST.IP}
+* Value: [the IP of your Pi-Hole]
 
   
  **Changelog:** 
 
+
+****Update 2024.6.2 (v1.4.1):****- Fixed {HOST.IP} macro to use {$HOST.IP}
 
 ****Update 2020.8.3 (v1.4):****- added getQueryTypes dependent items + graph:
 
